@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sano Pizza</title>
+    <link rel="stylesheet" href="style.contact.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="topnav">
+            <div class="dropdown">
+                <button class="dropbtn">&#9776;
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="reservation.html">Reservations</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+              
+            <div class="header">
+                <a href="index.html">
+                <img src="sano_logo.png" alt="Logo">
+            </a>
+            </div>
+
+            <div class="header-right">
+            </div>
+
+    
+        <div class="contact">
+            <h2>GET IN TOUCH</h2>
+            <p>Sano Pizza is located in Old City Temple Bar, just a stone throw
+                from Dublin City Halls, adjacent to the front door of the Parliament
+                Hotel on Exchange St Upper, Dublin 8.<br><br>
+                If you have questions or comments, please either, fill in the form on
+                the right or email us at info@sano.pizza</p>
+                <br>
+                <br>
+            <h2>FOLLOW US</h2>
+
+            <div class="icons2">
+                <div class="icon-7">
+                    <div class="column2">
+                        <a href="https://www.facebook.com/SanoDublin/" target="_blank">
+                        <img src="Facebook2.png">
+                        </a>
+                        </div>
+                    </div>
+                        
+                <div class="icon-8">
+                    <div class="column2">
+                        <a href="https://twitter.com/sanopizza?lang=en" target="_blank">
+                        <img src="Twitter2.png">
+                        </a>
+                        </div>
+                    </div>
+                
+                <div class="icon-9">
+                    <div class="column2">
+                        <a href="https://www.instagram.com/sano.pizza/" target="_blank">
+                        <img src="Instagram2.png">
+                        </a>
+                        </div>
+                    </div>
+            </div>
+    </div>
+
+        <div class="form">
+            <form action="/action_page.php">
+                <label for="name">Your Name (Required):</label><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Your Email (Required):</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="message">Subject:</label><br>
+                <input type="text" id="subject" name="subject"><br><br>
+                <label for="message">Your Message:</label><br>
+                <input type="text" id="message" name="message"><br><br>
+              </form>
+        </div>
+              <div class="form2">
+              <input type="submit" value="Submit">
+        </div>
+
+        <div class="map">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="1400" height="500" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=1-2%20Exchange%20Street%20Upper%2C%20Temple%20Bar%2C%20Dublin%208%2C%20D08%20XW7D%2C%20Ireland&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe><a href="https://www.whatismyip-address.com"></a>
+                </div>
+                </div>
+            </div>
+
+            <div class="arrow">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">&#8679; </button>
+            
+            <script>
+                var mybutton = document.getElementById("myBtn");
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                        
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        
+                        mybutton.style.display = "none";
+                            }
+                        }
+                    
+                    function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                        }
+                </script>
+                </div>
+
+            <div class="footer">
+                <div class="left-top">
+                </div>
+        
+                <div class="left-bottom">
+                    <p>Tel: 01 4453344<br>
+                        Email: info@sano.pizza<br><br></p>
+                    <p>© SANO 2018<br> <a href="https://sano.pizza/permissions-and-copyright" target="_blank">
+                        COPYRIGHT AND PRIVACY POLICY </a></p>
+                </div>
+        
+                <div class="icons2">
+                    <div class="icon-4">
+                        <div class="column2">
+                            <a href="https://www.facebook.com/SanoDublin/" target="_blank">
+                            <img src="Facebook2.png">
+                            </a>
+                            </div>
+                        </div>
+                            
+                    <div class="icon-5">
+                        <div class="column2">
+                            <a href="https://twitter.com/sanopizza?lang=en" target="_blank">
+                            <img src="Twitter2.png">
+                            </a>
+                            </div>
+                        </div>
+                    
+                    <div class="icon-6">
+                        <div class="column2">
+                            <a href="https://www.instagram.com/sano.pizza/" target="_blank">
+                            <img src="Instagram2.png">
+                            </a>
+                            </div>
+                        </div>
+                </div>
+        
+                <div class="left-right">
+                    <p> 2 Exchange Street Upper,<br>Temple Bar, Dublin 8 <br><br>
+                        <p>Opening Hours:<br>
+                            Mon - Tue: Closed, Wed - Fri: 4-9, Sat - Sun: 12-9 </p>
+                        
+                </div>
+            </div>
+
+    </div>
+
+</body>
+</html>
