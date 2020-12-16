@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    height: 1950px;
+    height: 1870px;
     background-color: #339FA2;
     float: left;
 }
@@ -170,6 +170,8 @@
     margin-left: 35px;
     background-color: #94BCBC;
     float: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .about2{
     width: 650px;
@@ -195,29 +197,81 @@
     width: 47%;
     float: left;
 }
+.break{
+    height: 160px;
+    width: 70%;
+    background-color: #339FA2;
+    float: left;
+}
 
-.backdrop3{
-    width: 95%;
-    height: 950px;
-    margin-left: 35px;
-    background-color: #94BCBC;
-    float: left;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+.break h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 420px;
+    margin-top: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.column {
-    float: left;
-    width: 30%;
-    margin: 20px 1.16%;
-    height: 400px;
-    padding-left: 10px;
-    padding-top: 10px;
+
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
 }
-.column img{
-    width: 400px;
-    height: 400px;
-    float: left;
+.mySlides {
+  display: none;
 }
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 550px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  margin-top: 550px;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #94BCBC;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 .footer{
     width: 100%;
     height: 200px;
@@ -312,7 +366,7 @@
     bottom: 20px;
     z-index: 99;
     background-color: #339FA2;
-    color: white;
+    color: #94BCBC;
     cursor: pointer;
     border-radius: 10px;
     font-size: 70px;
