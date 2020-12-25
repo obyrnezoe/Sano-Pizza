@@ -1,17 +1,18 @@
 .container{
     width: 100%;
     height: 1430px;
-    background-color: #339FA2;
+    margin: auto;
+    background-color: #1C9393;
     float: left;
 }
 
-@media screen (max-width: 100%){
+@media screen (max-width: 1200px){
 
 }
 .topnav{
     height: 140px;
     width: 10%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
     overflow: hidden;
 }
@@ -58,7 +59,7 @@
 }
 .dropdown-content a {
     float: none;
-    color: #DD987B;
+    color: #B7735E;
     padding: 35px 25px;
     text-decoration: none;
     display: block;
@@ -70,7 +71,7 @@
     color: #F6F7F1;
 }
 .dropdown-content a:hover {
-    background-color: #DD987B;
+    background-color: #B7735E;
     color: #FFD9AA;
 }
 .dropdown:hover .dropdown-content {
@@ -109,7 +110,7 @@
 .header{
     height: 140px;
     width: 70%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .header img{
@@ -121,7 +122,7 @@
 .header-right{
     width: 20%;
     height: 140px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .backdrop{
@@ -140,13 +141,13 @@
     float: left;
 }
 .policy h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: center;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .policy p{
-    color: #DD987B;
+    color: #B7735E;
     text-align: center;
     font-size: 20px;
     line-height: 1.5;
@@ -160,7 +161,7 @@
     background-color: #FFCA95;
 }
 .reservation h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: center;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -172,7 +173,7 @@ body {font-family: Verdana, sans-serif;}
 .month {
   padding: 70px 25px;
   width: 90%;
-  background: #DD987B;
+  background: #B7735E;
   text-align: center;
   margin-left: 35px;
   border-top-left-radius: 20px;
@@ -200,7 +201,7 @@ body {font-family: Verdana, sans-serif;}
   margin: 0;
   width: 90.8%;
   margin-left: 35px;
-  background-color:#339FA2;
+  background-color:#1C9393;
   height: 40px;
   padding-top: 20px;
 }
@@ -230,7 +231,7 @@ body {font-family: Verdana, sans-serif;}
   color: white;
 }
 .days li .active:hover{
-    background-color: #339FA2;
+    background-color: #1C9393;
     padding: 15px;
 }
 .prev, .next {
@@ -266,7 +267,6 @@ body {font-family: Verdana, sans-serif;}
     width: 100%;
     height: 20px;
     background-color: #94BCBC;
-    /*background-color:#94BCBC;*/
     float: left;
 }
 .left-bottom{
@@ -277,11 +277,11 @@ body {font-family: Verdana, sans-serif;}
 }
 .left-bottom p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .left-bottom a{
-    color: #339FA2;
+    color: #1C9393;
 }
 .left-right{
     background-color: #94BCBC;
@@ -291,7 +291,7 @@ body {font-family: Verdana, sans-serif;}
 }
 .left-right p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .icons2{
@@ -342,14 +342,14 @@ body {font-family: Verdana, sans-serif;}
 .arrow{
     width: 100%;
     height: 100px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 #myBtn {
-    margin-left: 670px;
+    margin:auto;
     bottom: 20px;
     z-index: 99;
-    background-color: #339FA2;
+    background-color: #1C9393;
     color: #94BCBC;
     cursor: pointer;
     border-radius: 10px;

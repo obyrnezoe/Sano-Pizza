@@ -1,18 +1,18 @@
 .container {
     width: 100%;
-    height: 470px;
+    height: auto;
     margin: auto;
     background-color: slategrey;
 }
 
-@media screen (max-width: 100%){
+@media screen (max-width: 1200px){
 
 }
 
 .topnav{
     height: 140px;
     width: 10%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
     overflow: hidden;
 }
@@ -59,7 +59,7 @@
 }
 .dropdown-content a {
     float: none;
-    color: #DD987B;
+    color: #B7735E;
     padding: 35px 25px;
     text-decoration: none;
     display: block;
@@ -71,7 +71,7 @@
     color: #F6F7F1;
 }
 .dropdown-content a:hover {
-    background-color: #DD987B;
+    background-color: #B7735E;
     color: #FFD9AA;
 }
 .dropdown:hover .dropdown-content {
@@ -109,7 +109,7 @@
 .header{
     height: 140px;
     width: 70%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .header img{
@@ -119,7 +119,7 @@
     margin-left: 37%;
 }
 .icons{
-    background-color: #339FA2;
+    background-color: #1C9393;
     width: 20%;
     height: 140px;
     float: left;
@@ -163,7 +163,7 @@
     width: 100%;
     height: 100px;
     float: left;
-    background-color: #339FA2;
+    background-color: #1C9393;
 }
 .pizza p{
     color: #F6F7F1;
@@ -179,7 +179,7 @@
     float: left;
 }
 .top-center h2{
-    color: #339FA2;
+    color: #1C9393;
     text-align: center;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -197,7 +197,7 @@
     float: left;
 }
 .top-left p{
-    color: #339FA2;
+    color: #1C9393;
     text-align: center;
     margin-left: 30px;
     font-size: 25px;
@@ -216,7 +216,7 @@
     float: left;
 }
 .top-middle p{
-    color: #339FA2;
+    color: #1C9393;
     text-align: center;
     margin-left: 20px;
     font-size: 25px;
@@ -236,7 +236,7 @@
     float: right;
 }
 .top-right p{
-    color: #339FA2;
+    color: #1C9393;
     text-align: center;
     margin-right: 30px;
     font-size: 25px;
@@ -261,12 +261,12 @@
     background-color: #FFCA95;
     float: left;
     padding-bottom: 10px;
-    border-top: 3px solid #DD987B;
-    border-bottom: 3px solid #DD987B;
+    border-top: 3px solid #B7735E;
+    border-bottom: 3px solid #B7735E;
 }
 .hours5 p{
     padding-left: 180px;
-    color: #DD987B;
+    color: #B7735E;
     font-size: 30px;
 }
 .hours6{
@@ -275,23 +275,23 @@
     background-color: #FFCA95;
     float: left;
     padding-bottom: 10px;
-    border-top: 3px solid #DD987B;
-    border-bottom: 3px solid #DD987B;
+    border-top: 3px solid #B7735E;
+    border-bottom: 3px solid #B7735E;
 }
 .hours6 p{
     padding-left: 200px;
-    color: #DD987B;
+    color: #B7735E;
     font-size: 30px;
 }
 .delivery p{
-    color: #339FA2;
+    color: #1C9393;
     text-align: center;
     margin-left: 30px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .middle-left{
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
     width: 100%;
     height: 1723px;
@@ -317,10 +317,10 @@
     float: left;
     margin-left: 31px;
     margin-top: 32px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box1 p{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     margin-left: 20px;
     font-size: 16px;
@@ -332,10 +332,10 @@
     float: left;
     margin-left: 31px;
     margin-top: 32px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box2 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -347,10 +347,10 @@
     float: left;
     margin-left: 31px;
     margin-top: 690px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box-2 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -364,7 +364,7 @@ ul li {
 p {
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #DD987B;
+    color: #B7735E;
 }
 .middle-right{
     background-color: #FFCA95;
@@ -385,7 +385,7 @@ p {
     float: left;
     margin-left: 31px;
     margin-top: 32px;
-    background-color: #DD987B;
+    background-color: #B7735E;
 }
 .basket img{
     width: 150px;
@@ -398,7 +398,7 @@ p {
     height: 130px;
     float: left;
     margin-top: 32px;
-    background-color: #DD987B;
+    background-color: #B7735E;
 }
 .price h2{
     color: #FFCA95;
@@ -413,10 +413,10 @@ p {
     float: left;
     margin-left: 31px;
     margin-top: 33px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box3 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -428,10 +428,10 @@ p {
     float: left;
     margin-left: 31px;
     margin-top: 235px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box4 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -443,10 +443,10 @@ p {
     float: left;
     margin-left: 31px;
     margin-top: 220px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box5 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -458,10 +458,10 @@ p {
     float: left;
     margin-left: 31px;
     margin-top: 360px;
-    border: 3px solid #DD987B;
+    border: 3px solid #B7735E;
 }
 .box6 h2{
-    color: #DD987B;
+    color: #B7735E;
     text-align: left;
     font-size: 25px;
     margin-left: 20px;
@@ -490,7 +490,6 @@ p {
     width: 100%;
     height: 20px;
     background-color: #94BCBC;
-    /*background-color:#94BCBC;*/
     float: left;
 }
 .left-bottom{
@@ -501,11 +500,11 @@ p {
 }
 .left-bottom p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .left-bottom a{
-    color: #339FA2;
+    color: #1C9393;
 }
 .left-right{
     background-color: #94BCBC;
@@ -515,7 +514,7 @@ p {
 }
 .left-right p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .icons2{
@@ -566,14 +565,14 @@ p {
 .arrow{
     width: 100%;
     height: 100px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 #myBtn {
-    margin-left: 670px;
+    margin:auto;
     bottom: 20px;
     z-index: 99;
-    background-color: #339FA2;
+    background-color: #1C9393;
     color: #94BCBC;
     cursor: pointer;
     border-radius: 10px;

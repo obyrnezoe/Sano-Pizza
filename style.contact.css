@@ -1,17 +1,18 @@
 .container{
     width: 100%;
     height: 1400px;
-    background-color: #339FA2;
+    margin: auto;
+    background-color: #1C9393;
     float: left;
 }
 
-@media screen (max-width: 100%){
+@media screen (max-width: 1200px){
 
 }
 .topnav{
     height: 170px;
     width: 10%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
     overflow: hidden;
 }
@@ -58,7 +59,7 @@
 }
 .dropdown-content a {
     float: none;
-    color: #DD987B;
+    color: #B7735E;
     padding: 35px 25px;
     text-decoration: none;
     display: block;
@@ -70,7 +71,7 @@
     color: #F6F7F1;
 }
 .dropdown-content a:hover {
-    background-color: #DD987B;
+    background-color: #B7735E;
     color: #FFD9AA;
 }
 .dropdown:hover .dropdown-content {
@@ -108,7 +109,7 @@
 .header{
     height: 170px;
     width: 70%;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .header img{
@@ -120,7 +121,7 @@
 .header-right{
     width: 20%;
     height: 170px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .contact{
@@ -139,7 +140,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .contact p{
-    color: #339FA2;
+    color: #1C9393;
     text-align: left;
     font-size: 20px;
     line-height: 1.5;
@@ -158,7 +159,7 @@
     padding-top: 35px;
     margin-left: 55px;
     font-size: 20px;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form input{
@@ -166,8 +167,8 @@
     width: 600px;
     height: 50px;
     margin-top: 10px;
-    color: #339FA2;
-    border: 1px solid #339FA2;
+    color: #1C9393;
+    border: 1px solid #1C9393;
 }
 .form2{
     background-color: #94BCBC;
@@ -175,8 +176,8 @@
 .form2 input{
     width: 300px;
     height: 50px;
-    color: #339FA2;
-    border: 1px solid #339FA2;
+    color: #1C9393;
+    border: 1px solid #1C9393;
     margin-left: 205px;
     margin-bottom: 70px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -226,7 +227,7 @@
 .map{
     width: 100%;
     height: 525px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 .mapouter{
@@ -263,11 +264,11 @@
 }
 .left-bottom p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .left-bottom a{
-    color: #339FA2;
+    color: #1C9393;
 }
 .left-right{
     background-color: #94BCBC;
@@ -277,7 +278,7 @@
 }
 .left-right p{
     text-align: center;
-    color: #339FA2;
+    color: #1C9393;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .icons2{
@@ -328,14 +329,14 @@
 .arrow{
     width: 100%;
     height: 100px;
-    background-color: #339FA2;
+    background-color: #1C9393;
     float: left;
 }
 #myBtn {
-    margin-left: 670px;
+    margin:auto;
     bottom: 20px;
     z-index: 99;
-    background-color: #339FA2;
+    background-color: #1C9393;
     color: #94BCBC;
     cursor: pointer;
     border-radius: 10px;
